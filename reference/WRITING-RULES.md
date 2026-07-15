@@ -66,7 +66,7 @@ These read as AI-generated. Replace them with concrete alternatives.
 "Leveraged advanced AI technologies to develop scalable, mission-critical solutions that drove significant business value across diverse client engagements."
 
 **Good (specific, concrete, shows judgment):**
-"Built and shipped 50 AI systems across 30 clients — voice agents, inbound receptionists, SMS bots, and cold email tools. Owned the full lifecycle from scoping to post-deployment support with no oversight."
+"Built and shipped 50 AI systems across 30 clients: voice agents, inbound receptionists, SMS bots, and cold email tools. Owned the full lifecycle from scoping to post-deployment support with no oversight."
 
 ---
 
@@ -125,6 +125,22 @@ Never list a skill just because the user wants it on there. The interview will e
 **Parallel structure.** All bullets in a section start with the same grammatical form (verb, noun, or noun phrase).
 
 **Do not start consecutive bullets with the same word.** Vary the opening verb.
+
+---
+
+## Deeper AI tells: beyond em dashes and banned verbs
+
+Em dashes and banned verbs are the obvious tells. Enterprise ATS content classifiers (and any recruiter who's read 200 GPT-written resumes this year) also catch these subtler patterns:
+
+**Sentence-length uniformity.** Human writing has burstiness: short bullets next to long ones, a fragment next to a full sentence. AI output defaults to a narrow band, most bullets landing within a few words of the same length. Check the bullet list for a whole section: if every bullet is within 3-4 words of the same length, vary it. Cut one down to a single clause, let another run longer if it earns it.
+
+**Too-perfect parallel structure.** Parallel structure (see above) is correct in principle, but AI writing takes it further than a human would: every single bullet in a section starting with [Verb] + [Object] + [Tool] + [Metric], in that exact slot order, every time. A human writer breaks the pattern occasionally, leading with the metric once, or the tool, or dropping the metric entirely when there isn't a clean one. If every bullet in a section is structurally identical down to the clause order, restructure at least one.
+
+**Rule of three overuse.** "Scoping, building, and deploying." "Fast, reliable, and scalable." AI defaults to listing exactly three items grouped in a triplet, especially in summaries and skill framing. Two items or four read more human. If a resume has more than one rule-of-three list, break at least one.
+
+**Symmetric sentence construction.** "Not only did X, but also Y" or "By doing X, achieved Y" used repeatedly across bullets. One use is fine. Repetition across a section is a tell.
+
+Check the full draft against these four before calling it done, the same way the copy-paste test below checks tone.
 
 ---
 
