@@ -10,7 +10,7 @@ Every formatting rule and section-order default in this skill is backed by actua
 
 - Interviews you once (contact info, education, work experience, projects, skills) and saves it locally — never asks again
 - Takes a job description, researches the company, and tailors framing, section order, and content to that specific role
-- Writes ATS-safe, human-readable bullets — no AI-sounding verbs, no em dashes, no fabricated skills
+- Writes ATS-safe, human-readable bullets — no AI-sounding verbs, no em dashes, no fabricated skills, and checked against deeper AI tells (sentence-length uniformity, over-perfect parallel structure, rule-of-three overuse)
 - Generates both a `.docx` and a `.pdf` (converted from the same validated docx, so they never drift apart)
 - India-aware: CGPA/backlog handling, declaration line convention, service-IT vs product-company vs PSU/govt framing differences
 
@@ -50,6 +50,10 @@ In Claude Code, just ask for a resume:
 **First time:** it interviews you in a few short phases, then saves your profile to `profile/profile.json` inside this skill's folder. This file is yours — it's plain-text JSON, stored locally, and never shared or committed to git (see `.gitignore`).
 
 **Every time after:** just paste the job description. It'll ask a couple of quick questions specific to that application (anything to emphasize, anything to leave out, any referral/inside info), then research the company, plan the resume, and generate both files.
+
+## Example output
+
+See [`examples/`](./examples) for a sample generated resume (`.docx` + `.pdf`) for a fictional candidate, showing the formatting and structure this skill produces.
 
 ## Notes
 
