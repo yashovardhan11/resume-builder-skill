@@ -11,14 +11,15 @@ Install the docx package:
 npm install -g docx 2>&1 | tail -5
 ```
 
-Write the generation script to a scratch path (e.g. `/tmp/resume_output.js`) and run it:
+Write the generation script to a scratch path (a temp directory, or the working directory if no temp path is available on this OS — e.g. `/tmp/resume_output.js` on macOS/Linux, `%TEMP%\resume_output.js` on Windows) and run it:
 ```bash
-node /tmp/resume_output.js
+node resume_output.js
 ```
 
 Validate:
 ```bash
 python3 ~/.claude/skills/docx/scripts/office/validate.py <output_path>/Firstname_Lastname_Resume_Company.docx
+# Windows: use `python` instead of `python3` if that's what's on PATH
 ```
 
 ---
