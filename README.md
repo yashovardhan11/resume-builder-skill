@@ -22,16 +22,22 @@ Install these once, before first use:
 2. **Node.js / npm** — needed to generate the `.docx` file
 3. **LibreOffice** — needed to convert the `.docx` to `.pdf`
    ```bash
+   # macOS
    brew install --cask libreoffice
+
+   # Windows
+   winget install TheDocumentFoundation.LibreOffice
    ```
 
-See `requirements.txt` for the exact list.
+Works the same on macOS and Windows — see `requirements.txt` for the exact list and per-OS install commands for everything.
 
 ## Install
 
 ```bash
 git clone https://github.com/yashovardhan11/resume-builder-skill.git ~/.claude/skills/resume-builder
 ```
+
+`~` resolves correctly in Git Bash and PowerShell (both common on Windows with Claude Code). If you're on plain `cmd.exe`, replace `~` with the full path to your user folder instead, e.g. `C:\Users\<you>\.claude\skills\resume-builder`.
 
 If you already have a `~/.claude/skills/resume-builder` folder, back it up first — this will overwrite it.
 

@@ -32,7 +32,7 @@ Once the .docx is validated, convert that exact file to PDF with LibreOffice hea
 soffice --headless --convert-to pdf --outdir <output_path> <output_path>/Firstname_Lastname_Resume_Company.docx
 ```
 
-Requires LibreOffice (`brew install --cask libreoffice` — one-time, free). If `soffice` is not found, tell the user to run that install command once, then re-run this step. Do not deliver only the .docx without explaining why the PDF is missing.
+Requires LibreOffice — one-time, free (macOS: `brew install --cask libreoffice`, Windows: `winget install TheDocumentFoundation.LibreOffice`). If `soffice` is not found, tell the user to run the install command for their OS once, then re-run this step. Do not deliver only the .docx without explaining why the PDF is missing.
 
 Sanity-check the output: confirm the PDF file exists and its size is non-trivial (LibreOffice fails silently to an empty or missing file on some errors).
 

@@ -97,7 +97,7 @@ Write the Node.js generation script with the user's actual content. Run it via b
 
 Then convert that exact .docx to PDF (see `reference/DOCX-TEMPLATE.md` — "PDF conversion" section for the command). Never generate the PDF independently — it must be a conversion of the already-validated .docx, so the two files can never drift apart.
 
-If the conversion step fails (e.g. LibreOffice not installed on this machine), tell the user directly: run `brew install --cask libreoffice` once, then re-run this step. Do not silently fall back to delivering only the .docx without saying why.
+If the conversion step fails (e.g. LibreOffice not installed on this machine), tell the user directly: install it once (macOS: `brew install --cask libreoffice`, Windows: `winget install TheDocumentFoundation.LibreOffice`), then re-run this step. Do not silently fall back to delivering only the .docx without saying why.
 
 ### Step 8 — Name and deliver
 Save both files to the user's current working directory (or ask where, if ambiguous) — not to a temp path.
