@@ -155,7 +155,7 @@ Two research passes fed this: (1) India-specific fresher hiring conventions, and
 
 ## 14. Writing rules (banned verbs, no em dashes, honest skills framing) — confirmed still correct for the Indian market specifically
 
-**Decision:** unchanged — `WRITING-RULES.md`'s banned-verb list and em-dash rule hold.
+**Decision:** `WRITING-RULES.md`'s banned-verb list and em-dash rule hold. Later extended with a "deeper AI tells" section (sentence-length uniformity, over-perfect parallel structure, rule-of-three overuse, symmetric construction) — same underlying sourcing, applied one level past the surface-level em-dash/verb check.
 
 **Why:** the most India-specific finding here was a single-author, unverified-credentials essay (treat as opinion/anecdote, not verified reporting) arguing that cheap AI resume tools have made "impeccable, AI-polished" resumes the new red flag in Indian tech hiring, not a positive signal — pushing hiring back toward referrals and "proof of work" (GitHub activity, live coding tests) over resume text. This reinforces, rather than contradicts, the skill's existing rules against AI-sounding language.
 
