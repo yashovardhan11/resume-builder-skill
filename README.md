@@ -4,6 +4,8 @@ A Claude Code skill that builds a tailored, ATS-optimised resume (.docx + .pdf) 
 
 Every resume is specific to one person and one job description. Never generic, never reused.
 
+Every formatting rule and section-order default in this skill is backed by actual research, not convention — see [`RESEARCH.md`](./RESEARCH.md) for the full source list and citations, including where evidence was thin or claims couldn't be verified.
+
 ## What it does
 
 - Interviews you once (contact info, education, work experience, projects, skills) and saves it locally — never asks again
@@ -28,7 +30,7 @@ See `requirements.txt` for the exact list.
 ## Install
 
 ```bash
-git clone https://github.com/yash-revionai/resume-builder-skill.git ~/.claude/skills/resume-builder
+git clone https://github.com/yashovardhan11/resume-builder-skill.git ~/.claude/skills/resume-builder
 ```
 
 If you already have a `~/.claude/skills/resume-builder` folder, back it up first — this will overwrite it.
