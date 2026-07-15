@@ -1,0 +1,17 @@
+# Not a pip manifest — this skill has no Python dependencies of its own.
+# This is a plain checklist of what needs to be installed on your machine
+# before this skill works. Nothing here gets installed by `pip install -r`.
+
+# 1. Claude Code (the CLI this skill runs inside)
+#    https://claude.com/claude-code
+
+# 2. Node.js + npm — used to generate the .docx file
+#    The skill runs `npm install -g docx` itself on first use, so you just
+#    need Node/npm present: https://nodejs.org (or `brew install node`)
+
+# 3. LibreOffice — used to convert the generated .docx to .pdf
+#    brew install --cask libreoffice
+
+# 4. Python 3 — used only to run the docx validator script that ships
+#    with the separate `docx` skill this one depends on. macOS ships
+#    Python 3 by default; nothing extra to install for this specifically.
